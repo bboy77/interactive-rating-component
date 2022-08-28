@@ -1,0 +1,65 @@
+/* buttons */
+button[class^="btn"] {
+	border: none;
+	border-radius: 100vmax;
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 1;
+	outline: none;
+	padding-top: 0.125em;
+	transition: 0.3s ease-in;
+
+	@media (min-width: 48em) {
+		font-size: 0.9375rem;
+	}
+}
+
+button:disabled {
+	cursor: auto;
+	opacity: 0.5;
+
+	&:is(:focus, :hover) {
+		background-color: var(--orange);
+		color: var(--white);
+	}
+}
+
+.btn-rating {
+	aspect-ratio: 1;
+	background-color: var(--dark-blue);
+	color: var(--medium-grey);
+	width: 2.75rem;
+
+	&:is(:focus, :hover) {
+		background-color: var(--orange);
+		color: var(--white);
+	}
+
+	&.active {
+		background-color: var(--medium-grey);
+		color: var(--white);
+	}
+
+	@media (min-width: 48em) {
+		width: 3.25rem;
+	}
+}
+
+.btn-submit {
+	background-color: var(--orange);
+	color: var(--white);
+	height: 2.75rem;
+	letter-spacing: 0.125rem;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+
+	&:is(:focus, :hover) {
+		background-color: var(--white);
+		color: var(--orange);
+	}
+
+	@media (min-width: 48em) {
+		margin-bottom: 0;
+	}
+}

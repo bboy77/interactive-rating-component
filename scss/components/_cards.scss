@@ -1,0 +1,48 @@
+/* cards */
+.card {
+	background: linear-gradient(-150deg, hsl(213, 19%, 18%), hsl(215, 27%, 12%));
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	width: 20.313rem;
+
+	@media (min-width: 48em) {
+		border-radius: 1.75rem;
+		padding: 2rem;
+		width: 25.938rem;
+	}
+}
+
+.card-title {
+	color: var(--white);
+	font-size: 1.45rem;
+
+	@media (min-width: 768px) {
+		font-size: 1.75rem;
+	}
+}
+
+.card-description {
+	color: var(--medium-grey);
+	font-size: 0.875rem;
+	margin: 0.5rem auto 1rem;
+
+	@media (min-width: 48em) {
+		font-size: 0.9375rem;
+	}
+}
+
+.card-subtitle {
+	background-color: hsl(213, 19%, 18%);
+	border-radius: 100vmax;
+	color: hsl(25, 67%, 53%);
+	font-size: 0.875rem;
+	margin-bottom: 1.5rem;
+	padding: 0.35rem 0.75rem 0.25rem;
+
+	@media (min-width: 48em) {
+		font-size: 0.9375rem;
+		padding: 0.35rem 1rem 0.25rem;
+	}
+}

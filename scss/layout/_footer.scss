@@ -1,0 +1,40 @@
+/* footer */
+footer {
+	align-items: center;
+	border-top: 0.063rem solid var(--light-grey);
+	color: var(--light-grey);
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	justify-content: center;
+	padding: 1rem;
+
+	*:focus {
+		outline: none;
+	}
+
+	a {
+		color: var(--orange);
+	}
+
+	p {
+		font-size: 0.875rem;
+	}
+
+	@media (min-width: 48em) {
+		flex-direction: row;
+		gap: 0;
+		p {
+			font-size: 0.9375rem;
+		}
+	}
+}
+
+.challenge-by {
+	@media (min-width: 48em) {
+		&::after {
+			content: "\00a0\•\00a0\00a0";
+			color: var(--white);
+		}
+	}
+}
