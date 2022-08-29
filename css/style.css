@@ -22,12 +22,6 @@ ul {
   list-style: none;
 }
 
-a,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
 body {
   background-color: var(--very-dark-blue);
   display: flex;
@@ -64,7 +58,7 @@ button[class^=btn] {
 }
 @media (min-width: 48em) {
   button[class^=btn] {
-    font-size: 0.9375rem;
+    font-size: 0.938rem;
   }
 }
 
@@ -169,39 +163,93 @@ button:disabled:is(:focus, :hover) {
 }
 
 /* footer */
-footer {
+.footer-frontend-mentor {
   align-items: center;
-  border-top: 0.063rem solid var(--light-grey);
-  color: var(--light-grey);
+  border-top: 0.063rem solid white;
+  color: var(--medium-grey);
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   justify-content: center;
   padding: 1rem;
 }
-footer *:focus {
-  outline: none;
-}
-footer a {
-  color: var(--orange);
-}
-footer p {
+.footer-frontend-mentor :is(a, p) {
   font-size: 0.875rem;
 }
+.footer-frontend-mentor a,
+.footer-frontend-mentor a:is(:visited, :active) {
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-frontend-mentor a:is(:focus, :hover) {
+  color: var(--orange);
+}
 @media (min-width: 48em) {
-  footer {
+  .footer-frontend-mentor {
     flex-direction: row;
-    gap: 0;
+    gap: 0.5rem;
+    justify-content: center;
   }
-  footer p {
-    font-size: 0.9375rem;
+  .footer-frontend-mentor :is(a, p) {
+    font-size: 0.938rem;
   }
 }
 
+.challenge-by {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  line-height: 1;
+}
+.challenge-by svg {
+  aspect-ratio: 7/1;
+  fill: currentColor;
+  height: 1.2rem;
+  margin-top: 0.45rem;
+}
 @media (min-width: 48em) {
   .challenge-by::after {
-    content: " •  ";
-    color: var(--white);
+    content: "•";
+  }
+  .challenge-by svg {
+    height: 1.25rem;
+  }
+}
+
+.coded-by {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+@media (min-width: 48em) {
+  .coded-by::after {
+    content: "•";
+  }
+}
+
+.social-media {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  line-height: 1;
+}
+.social-media svg {
+  aspect-ratio: 1;
+  fill: white;
+  width: 1.25rem;
+}
+.social-media svg:is(:focus, :hover) {
+  fill: var(--orange);
+}
+@media (min-width: 48em) {
+  .social-media {
+    gap: 0.5rem;
+  }
+  .social-media svg {
+    width: 1rem;
   }
 }
 
