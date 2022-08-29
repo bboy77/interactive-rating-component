@@ -25,6 +25,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ![](./images/screenshot-mobile.png)
 
+- Desktop
+
+![](./images/screenshot-desktop.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
