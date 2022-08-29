@@ -41,22 +41,17 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to use the CSS property `aspect-ration` to properly size svg images.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+svg {
+  aspect-ratio: 7 /1;
+	fill: currentColor;
+	height: 1.2rem;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
