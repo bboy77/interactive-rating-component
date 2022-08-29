@@ -56,6 +56,10 @@ svg {
 }
 ```
 
+### Enhancements
+
+- Custom footer with links to code and package repositories
+
 ### Useful resources
 
 - [Sass Lang](https://sass-lang.com/) - This has documentation for the sass language.
