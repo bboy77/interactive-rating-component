@@ -43,6 +43,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - Javascript
 - SCSS
 
+### Enhancements
+
+- Custom footer with links to code and package repositories
+
 ### What I learned
 
 - CSS property `aspect-ratio` to properly size svg images based on the original size, using just the height or width.
@@ -55,10 +59,6 @@ svg {
     height: 1.2rem;
 }
 ```
-
-### Enhancements
-
-- Custom footer with links to code and package repositories
 
 ### Useful resources
 
