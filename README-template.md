@@ -1,6 +1,8 @@
-# Frontend Mentor - Interactive rating component solution
+<img src="./images/fem-logo.svg" alt="Frontend Mentor Logo" width="48">
+<b>Frontend Mentor</b>
+<h1>Interactive rating component solution</h1>
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Table of contents
 
