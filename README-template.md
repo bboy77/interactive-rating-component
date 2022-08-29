@@ -41,7 +41,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### What I learned
 
-I learned how to use the CSS property `aspect-ration` to properly size svg images.
+- CSS property `aspect-ratio` to properly size svg images based on the original size, using just the height or width.
+- CSS value `currentColor` for the svg fill property. 
 
 ```css
 svg {
