@@ -29,7 +29,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-scss-v-a17gjNPy)
 - Live Site URL: [Interactive rating component](https://bboy77.github.io/interactive-rating-component/)
 
 ## My process
