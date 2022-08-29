@@ -21,7 +21,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshots
 
-![](./screenshot.jpg)
+- Mobile
+
+![](./images/screenshot-mobile.png)
 
 ### Links
 
