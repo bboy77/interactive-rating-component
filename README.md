@@ -45,6 +45,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Enhancements
 
+- Initial disabled state for submit button
 - Custom footer with links to code and package repositories
 
 ### What I learned
